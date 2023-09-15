@@ -1,16 +1,17 @@
 {
-  "name": "arduino",
-  "version": "1.0.0",
-  "description": "send arduino data to webpage",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Guilherme Cozendey",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.18.2",
-    "serialport": "^11.0.1",
-    "socket.io": "^4.7.2"
-  }
+	"name": "arduino",
+	"version": "1.0.0",
+	"description": "send arduino data to webpage",
+	"main": "index.js",
+	"scripts": {
+    	"test": "echo \"Error: no test specified\" && exit 1",
+    	"start": "node index.js"	
+  	},
+	"author": "Guilherme Cozendey",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.18.2",
+		"serialport": "^11.0.1",
+		"socket.io": "^4.7.2"
+	}
 }
