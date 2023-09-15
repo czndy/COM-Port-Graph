@@ -15,7 +15,6 @@ function App() {
       console.log("DATA",data);
       setDados(data);
     })
-
     
 
   },[]);
